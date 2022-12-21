@@ -4,6 +4,8 @@ import './App.css';
 import { Header } from './site/Header';
 import { Body } from './site/Body';
 import { Cars, NewComponent } from './map/map';
+import { Button } from './Button/Button';
+import { ButtonPractice } from './Button/Button_practice';
 
 const students = [
   {id: 1, name: "James", age: 8},
@@ -32,6 +34,8 @@ function App() {
       <Body title = {'New Body'}/>
       <NewComponent students = {students}/>
       <Cars cars = {topCars}/>
+      <Button/>
+      <ButtonPractice/>
     </>
   );
 }
