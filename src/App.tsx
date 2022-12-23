@@ -6,6 +6,7 @@ import { Body } from './site/Body';
 import { Cars, NewComponent } from './map/map';
 import { Button } from './Button/Button';
 import { ButtonPractice } from './Button/Button_practice';
+import { AppPractice } from './useState/useS';
 
 const students = [
   {id: 1, name: "James", age: 8},
@@ -36,6 +37,7 @@ function App() {
       <Cars cars = {topCars}/>
       <Button/>
       <ButtonPractice/>
+      <AppPractice/>
     </>
   );
 }
